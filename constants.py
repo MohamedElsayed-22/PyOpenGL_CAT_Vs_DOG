@@ -1,0 +1,26 @@
+
+#Constants
+#Window dimensions
+WINDOW_WIDTH = 1920
+WINDOW_HEIGHT = 1080
+FONT_SCALE = 0.5
+
+#Game physics
+GRAVITY_ACC = -9.8
+
+#Game details
+CURRENT_TURN = "DOG"
+DOG_STATE = "IDLE"
+CAT_STATE = "IDLE"
+LOSE = False
+Time = 5
+#winning condition (number of hits to win)
+WINNING_CONDITION = 3
+DOG_RESULT = WINNING_CONDITION
+CAT_RESULT = WINNING_CONDITION
+#Object dimensions
+PLAYER_WIDTH = WINDOW_WIDTH//6
+PLAYER_HEIGHT = WINDOW_HEIGHT//5
+BALL_SIZE = ((50*(WINDOW_WIDTH)/800) + ((50*(WINDOW_HEIGHT)/600)))/2
+ROTATION_ANGLE = 0
+
